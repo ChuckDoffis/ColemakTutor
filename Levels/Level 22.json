@@ -1,0 +1,5 @@
+{
+	"QWERTY": "f f f f f f f f f f f f f f f f f f f f\nf f f f f f f f f f f f f f f f f f f f\nd d d d d d d d d d d d d d d d d d d d\nd d d d d d d d d d d d d d d d d d d d\nj j j j j j j j j j j j j j j j j j j j\nj j j j j j j j j j j j j j j j j j j j\nk k k k k k k k k k k k k k k k k k k k\nk k k k k k k k k k k k k k k k k k k k\n",
+	"Colemak": "t t t t t t t t t t t t t t t t t t t t\nt t t t t t t t t t t t t t t t t t t t\ns s s s s s s s s s s s s s s s s s s s\ns s s s s s s s s s s s s s s s s s s s\nn n n n n n n n n n n n n n n n n n n n\nn n n n n n n n n n n n n n n n n n n n\ne e e e e e e e e e e e e e e e e e e e\ne e e e e e e e e e e e e e e e e e e e\n",
+	"maxErrors": 3
+} 

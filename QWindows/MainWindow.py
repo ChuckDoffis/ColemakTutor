@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'untitledINHbLY.ui'
+## Form generated from reading UI file 'StartWindowtCBVtv.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -14,42 +14,40 @@ from PySide2.QtWidgets import *
 
 
 class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        if not MainWindow.objectName():
-            MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(300, 400)
-        self.centralwidget = QWidget(MainWindow)
+    def setupUi(self, StartWindow):
+        if not StartWindow.objectName():
+            StartWindow.setObjectName(u"StartWindow")
+        StartWindow.resize(300, 400)
+        self.centralwidget = QWidget(StartWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.ToNaber = QLabel(self.centralwidget)
-        self.ToNaber.setObjectName(u"ToNaber")
-        self.ToNaber.setEnabled(True)
-        self.ToNaber.setGeometry(QRect(0, 180, 301, 121))
-        sizePolicy = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Preferred)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.ToNaber.sizePolicy().hasHeightForWidth())
-        self.ToNaber.setSizePolicy(sizePolicy)
-        self.ToNaber.setStyleSheet(u"p {\n"
-"  display: inline;\n"
-"}")
-        self.ToNaber.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
-        self.textEdit = QTextEdit(self.centralwidget)
-        self.textEdit.setObjectName(u"textEdit")
-        self.textEdit.setGeometry(QRect(0, 0, 301, 171))
-        self.ErrCount = QLabel(self.centralwidget)
-        self.ErrCount.setObjectName(u"ErrCount")
-        self.ErrCount.setGeometry(QRect(230, 150, 66, 19))
-        self.ErrCount.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
-        MainWindow.setCentralWidget(self.centralwidget)
+        self.verticalLayoutWidget = QWidget(self.centralwidget)
+        self.verticalLayoutWidget.setObjectName(u"verticalLayoutWidget")
+        self.verticalLayoutWidget.setGeometry(QRect(60, 60, 191, 231))
+        self.verticalLayout = QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setSpacing(10)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.verticalLayout.setSizeConstraint(QLayout.SetDefaultConstraint)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.graphicsView = QGraphicsView(self.verticalLayoutWidget)
+        self.graphicsView.setObjectName(u"graphicsView")
+        self.graphicsView.setContextMenuPolicy(Qt.DefaultContextMenu)
 
-        self.retranslateUi(MainWindow)
+        self.verticalLayout.addWidget(self.graphicsView)
 
-        QMetaObject.connectSlotsByName(MainWindow)
+        self.startButton = QPushButton(self.verticalLayoutWidget)
+        self.startButton.setObjectName(u"startButton")
+
+        self.verticalLayout.addWidget(self.startButton)
+        
+        StartWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(StartWindow)
+
+        QMetaObject.connectSlotsByName(StartWindow)
     # setupUi
 
-    def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Proba", None))
-        self.ToNaber.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><br/></p></body></html>", None))
-        self.ErrCount.setText(QCoreApplication.translate("MainWindow", u"errors: 0", None))
+    def retranslateUi(self, StartWindow):
+        StartWindow.setWindowTitle(QCoreApplication.translate("StartWindow", u"StartWindow", None))
+        self.startButton.setText(QCoreApplication.translate("StartWindow", u"Start", None))
     # retranslateUi
 

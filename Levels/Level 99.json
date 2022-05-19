@@ -1,0 +1,5 @@
+{
+	"QWERTY": "q q q q q q q q q q q q q q q q q q q q\np p p p p p p p p p p p p p p p p p p p\nw w w w w w w w w w w w w w w w w w w w\no o o o o o o o o o o o o o o o o o o o\ne e e e e e e e e e e e e e e e e e e e\ni i i i i i i i i i i i i i i i i i i i\nr r r r r r r r r r r r r r r r r r r r\nu u u u u u u u u u u u u u u u u u u u\nt t t t t t t t t t t t t t t t t t t t\ny y y y y y y y y y y y y y y y y y y y\n",
+	"Colemak": "q q q q q q q q q q q q q q q q q q q q\n; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;\nw w w w w w w w w w w w w w w w w w w w\ny y y y y y y y y y y y y y y y y y y y\nf f f f f f f f f f f f f f f f f f f f\nu u u u u u u u u u u u u u u u u u u u\np p p p p p p p p p p p p p p p p p p p\nl l l l l l l l l l l l l l l l l l l l\ng g g g g g g g g g g g g g g g g g g g\nj j j j j j j j j j j j j j j j j j j j\n",
+	"maxErrors": 3
+}
